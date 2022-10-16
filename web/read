@@ -1,0 +1,15 @@
+分层思想（解耦:高内聚低耦合）
+    controller层
+        接收请求
+        (调用service层，返回结果）响应结果
+    service层
+        业务逻辑判断
+    mapper
+        接口类
+        mapper.xml mybatis与数据库的相关操作
+    entity (po、model)
+        JavaBean实体
+    util
+        工具类（通用的方法/类）
+    test
+        测试类/方法
